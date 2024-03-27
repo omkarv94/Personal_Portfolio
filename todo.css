@@ -291,7 +291,7 @@ li {
       opacity: 0;
     }
   }
-  @media (max-width: 95em) {
+  @media  only screen  and (max-width: 565px) {
     .container {
       max-width: 130rem;
       padding: 0 3.2rem;
@@ -300,6 +300,80 @@ li {
     .navbar-lists {
       gap: 3.4rem;
     }
+    .container{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .container {
+      background: #ffffff;
+      padding: 20px;
+      width: 450px;
+      border-radius: 10px;  
+      margin-bottom: 5%;
+    }
+    .todo-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-left: 3px;
+      justify-content: center;
+    }
+    .notebook-icon{
+      height: 30px;
+      margin-left: 1rem;
+    }
+    .todo-body {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #edeef0;
+      border-radius: 30px;
+      padding-left: 20px;
+      margin-bottom: 25px;
+    }
+    
+    .todo-body input {
+      flex: 1;
+      border: none;
+      outline: none;
+      background: transparent;
+      padding: 15px 0;
+      font-size: 20px;
+    }
+    
+    .todo-body img {
+      cursor: pointer;
+      border-radius: 40px;
+      height: 35px;
+      width: 35px;
+      padding: 15px;
+      background: limegreen;
+    }
+    .searchInput {
+      flex: 1;
+      width: 300px;
+      border: none;
+      outline: none;
+      background: transparent;
+      padding: 15px 0;
+      font-size: 10px;
+      text-align: center;
+    }
+    .todo-controls{
+      height: 23px;
+      width: 23px;
+    }
+    .todo-controls1{
+      height: 22px;
+      width: 22px;
+    }
+    ul li {
+      list-style: none;
+      font-size: 12px;
+      cursor: pointer;
+      padding: 10px;
+    }
+    
   }
   @media only screen and (max-width: 768px) {
     .navbar-lists {
