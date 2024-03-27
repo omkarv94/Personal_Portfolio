@@ -456,7 +456,7 @@ Footer Section Start
 /* media queries  
 ======================================= */
 
-@media (max-width: 95em) {
+@media only screen and (max-width: 705px) {
   .container {
     max-width: 130rem;
     padding: 0 3.2rem;
@@ -465,6 +465,59 @@ Footer Section Start
   .navbar-lists {
     gap: 3.4rem;
   }
+  .section-contact-main {
+    max-width: 40rem;
+    margin: 0 auto;
+    margin-top: 9rem;
+    transition: all 0.3s linear;
+  }
+  
+  .section-contact-main .grid {
+    gap: 3.2rem;
+  }
+  
+  .section-contact-main form {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    align-items: center;
+
+  }
+  
+  .section-contact-main input,
+  .section-contact-main textarea {
+    padding: 1.5rem 2rem;
+    border: 0.1rem solid #413a3a;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    font-family: "work sans";
+    width: 100%;
+  }
+  
+  .section-contact-main input[type="submit"] {
+    max-width: 0%;
+    border: none;
+    color: #fff;
+  }
+  .section-contact-main input[type="submit"] {
+    max-width: 100%;
+    border: none;
+    color: #fff;
+  }
+  .section-freelancing h2 {
+    font-size: 2.8rem;
+  }
+  .foot{
+    color: #f3f4ff;
+    font-size: medium;
+    text-align: center;
+    background: #232426;
+}
+.foot .foot-image{
+    margin-top: 2rem;
+    height: 3rem;
+    background: #232426;
+}
 }
 @media only screen and (max-width: 768px) {
   .navbar-lists {
